@@ -1,0 +1,19 @@
+.card-container{
+    width: 100%;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+}
+.heading{
+    color: red;
+   text-align: center;
+}
+.card-heading,.card-desc{
+   text-align: center;
+}
+.card-img{
+    width: 100%;
+    height: 200px;
+}

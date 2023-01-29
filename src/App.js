@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import RandomUsers from "./components/Card/Card";
+// import Carousel from "./components/Carousel/carousel";
+// import TodoApp from "./components/TodoApp/TodoApp";
+// import TravelBlog from "./components/Travel_Journel/travel";
+// import Todos from "./components/Todos/todos";
+// import Calculator from "./components/Calculator/calculator";
+// import Calculator from "./components/Calculator/calculatorUsingUseState";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* 
+    <TravelBlog/>
+    <Carousel/>
+    <Todos/>
+    <TodoApp/> 
+    <RandomUsers/>
+    <Calculator/>
+  */}
+    
+    </>
+   
   );
 }
 

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+   height: 10vh;
+   padding: 10px;
+   text-align: center;
+   background-color: antiquewhite;
+}
+.travel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0d26;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.img-container {
+   
+}
+.pic{
+    width: 50vw;
+    max-width: 500px;
+    min-width: 250px;
+    height: 400px;
+}
+.desc-container {
+    width: 65vw;
+    max-width: 600px;
+    min-width: 250px;
+    background-color: beige;
+    border-radius: 1rem;
+    min-height: 400px;
+    padding: 20px;
+}
+.desc{
+    max-width: 80%;
+    padding-left: 1rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.place {
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+.date{
+    font-family: Inter;
+font-size: .7rem;
+font-weight: bolder;
+line-height: 12px;
+letter-spacing: 0em;
+padding-left: 1rem;
+padding-top: .5rem;
+
+
+}
+.country {
+   padding-top: .2rem;
+   padding-left: 0.5rem;
+}
+
+.country i {
+    color: #F55A5A;
+    margin-right: .2rem;
+}
+
+.pic {
+    border-radius: 10px;
+}
