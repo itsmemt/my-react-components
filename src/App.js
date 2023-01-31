@@ -5,6 +5,8 @@
 // import Todos from "./components/Todos/todos";
 // import Calculator from "./components/Calculator/calculator";
 // import Calculator from "./components/Calculator/calculatorUsingUseState";
+// import { CounterUsingReducer } from "./components/Counter/counterUseReducer";
+// import { Stopwatch } from "./components/StopWatch/stopwatch";
 function App() {
   return (
     <>
@@ -15,8 +17,9 @@ function App() {
     <TodoApp/> 
     <RandomUsers/>
     <Calculator/>
+  <CounterUsingReducer/>
+    <Stopwatch/>
   */}
-    
     </>
    
   );
